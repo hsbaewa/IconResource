@@ -58,4 +58,7 @@ public interface ExtensionIconManagerConst {
     String XLS = "xls";
     String XLSX = "xlsx";
     String ZIP = "zip";
+
+    String HWP = "hwp";
+    String LOG = "log";
 }

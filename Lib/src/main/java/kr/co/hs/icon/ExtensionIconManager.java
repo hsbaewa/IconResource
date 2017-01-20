@@ -181,9 +181,16 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
         else if(XLSX.equalsIgnoreCase(extension)){
             return R.drawable.ic_xlsx;
         }
-        else if(ZIP.equalsIgnoreCase(extension)){
+        else if(ZIP.equalsIgnoreCase(extension)) {
             return R.drawable.ic_zip;
-        }else
+        }
+        else if(HWP.equalsIgnoreCase(extension)){
+            return R.drawable.ic_hwp;
+        }
+        else if(LOG.equalsIgnoreCase(extension)){
+            return R.drawable.ic_log;
+        }
+        else
             return -1;
     }
 
