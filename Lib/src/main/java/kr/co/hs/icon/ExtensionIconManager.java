@@ -191,7 +191,7 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_log;
         }
         else
-            return -1;
+            return R.drawable.ic_unknown;
     }
 
     public Drawable getDrawable(Context context, String path){
@@ -203,7 +203,10 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
     }
 
     public Drawable getDrawable(Context context, File file){
-        return getDrawable(context, file.getAbsolutePath());
+        if(file.isDirectory()){
+            return ContextCompat.getDrawable(context, R.drawable.ic_folder);
+        }else
+            return getDrawable(context, file.getAbsolutePath());
     }
 
 /*
