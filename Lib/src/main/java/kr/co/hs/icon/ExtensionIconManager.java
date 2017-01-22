@@ -68,10 +68,10 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_dmg;
         }
         else if(DOC.equalsIgnoreCase(extension)){
-            return R.drawable.ic_doc;
+            return R.drawable.ic_word;
         }
         else if(DOCX.equalsIgnoreCase(extension)){
-            return R.drawable.ic_docx;
+            return R.drawable.ic_word;
         }
         else if(DWF.equalsIgnoreCase(extension)){
             return R.drawable.ic_dwf;
@@ -140,10 +140,10 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_png;
         }
         else if(PPT.equalsIgnoreCase(extension)){
-            return R.drawable.ic_ppt;
+            return R.drawable.ic_powerpoint;
         }
         else if(PPTX.equalsIgnoreCase(extension)){
-            return R.drawable.ic_ppt;
+            return R.drawable.ic_powerpoint;
         }
         else if(PS.equalsIgnoreCase(extension)){
             return R.drawable.ic_ps;
@@ -176,10 +176,10 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_txt;
         }
         else if(XLS.equalsIgnoreCase(extension)){
-            return R.drawable.ic_xls;
+            return R.drawable.ic_excel;
         }
         else if(XLSX.equalsIgnoreCase(extension)){
-            return R.drawable.ic_xlsx;
+            return R.drawable.ic_excel;
         }
         else if(ZIP.equalsIgnoreCase(extension)) {
             return R.drawable.ic_zip;
