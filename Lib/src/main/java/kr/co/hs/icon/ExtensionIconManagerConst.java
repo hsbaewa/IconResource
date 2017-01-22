@@ -62,4 +62,6 @@ public interface ExtensionIconManagerConst {
     String HWP = "hwp";
     String LOG = "log";
     String FOLDER = "folder";
+
+    String APK = "apk";
 }

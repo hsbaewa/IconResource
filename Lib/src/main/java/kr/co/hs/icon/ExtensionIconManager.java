@@ -190,6 +190,9 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
         else if(LOG.equalsIgnoreCase(extension)){
             return R.drawable.ic_log;
         }
+        else if(APK.equalsIgnoreCase(extension)){
+            return R.drawable.ic_android;
+        }
         else
             return R.drawable.ic_unknown;
     }
