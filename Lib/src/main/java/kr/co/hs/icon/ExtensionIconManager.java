@@ -50,7 +50,7 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_bin;
         }
         else if(BMP.equalsIgnoreCase(extension)){
-            return R.drawable.ic_bmp;
+            return R.drawable.ic_image;
         }
         else if(CAD.equalsIgnoreCase(extension)){
             return R.drawable.ic_cad;
@@ -89,7 +89,7 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_flac;
         }
         else if(GIF.equalsIgnoreCase(extension)){
-            return R.drawable.ic_gif;
+            return R.drawable.ic_image;
         }
         else if(HLP.equalsIgnoreCase(extension)){
             return R.drawable.ic_hlp;
@@ -110,7 +110,7 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_java;
         }
         else if(JPG.equalsIgnoreCase(extension)){
-            return R.drawable.ic_jpg;
+            return R.drawable.ic_image;
         }
         else if(JS.equalsIgnoreCase(extension)){
             return R.drawable.ic_js;
@@ -131,13 +131,13 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_mpg;
         }
         else if(PDF.equalsIgnoreCase(extension)){
-            return R.drawable.ic_pdf;
+            return R.drawable.ic_adobereader;
         }
         else if(PHP.equalsIgnoreCase(extension)){
             return R.drawable.ic_php;
         }
         else if(PNG.equalsIgnoreCase(extension)){
-            return R.drawable.ic_png;
+            return R.drawable.ic_image;
         }
         else if(PPT.equalsIgnoreCase(extension)){
             return R.drawable.ic_powerpoint;
@@ -173,7 +173,7 @@ public class ExtensionIconManager implements ExtensionIconManagerConst{
             return R.drawable.ic_tiff;
         }
         else if(TXT.equalsIgnoreCase(extension)){
-            return R.drawable.ic_txt;
+            return R.drawable.ic_document;
         }
         else if(XLS.equalsIgnoreCase(extension)){
             return R.drawable.ic_excel;
